@@ -11,9 +11,7 @@ var fs = require('fs');
 var promise = promisify(fs.readFile)('filename.txt');
 ```
 
-## License
-
-MIT License.
+## MIT License
 
 Copyright (c) 2016 Paul Miller (http://paulmillr.com)
 
