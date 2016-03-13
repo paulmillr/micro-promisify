@@ -1,6 +1,6 @@
 {
   "name": "micro-promisify",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert callback-based function into promise. Simple, 10LOC, no deps.",
   "main": "index.js",
   "scripts": {
