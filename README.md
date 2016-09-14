@@ -5,10 +5,10 @@ Convert callback-based function into promise. Simple, 10LOC, no deps.
 ## Usage
 
 ```javascript
-var promisify = require('micro-promisify');
-var fs = require('fs');
+const promisify = require('micro-promisify');
+const fs = require('fs');
 
-var promise = promisify(fs.readFile)('filename.txt');
+const promise = promisify(fs.readFile)('filename.txt');
 ```
 
 ## License
