@@ -11,6 +11,10 @@ const fs = require('fs');
 const promise = promisify(fs.readFile)('filename.txt');
 ```
 
+## Runtime support
+
+Node.js 4+ and modern browsers only.
+
 ## License
 
 [MIT](https://github.com/paulmillr/mit) (c) 2016 Paul Miller (http://paulmillr.com)
