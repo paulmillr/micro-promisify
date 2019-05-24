@@ -1,4 +1,4 @@
-module.exports = fn => {
+var promisify = (fn) => {
   'use strict'; // MIT License, paulmillr.com
   if (typeof fn !== 'function') throw new TypeError('micro-promisify must receive a function');
   return Object.defineProperties(function() {
@@ -12,3 +12,4 @@ module.exports = fn => {
     name: {value: fn.name},
   });
 };
+if (typeof module !== 'undefined') module.exports = promisify;
